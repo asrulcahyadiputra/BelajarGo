@@ -11,4 +11,14 @@ func main(){
     fmt.Println(nilai32)
     fmt.Println(nilai64)
     fmt.Println(nilai16)
+
+    var name = "Asrul Cahyadi Putra"
+    var e = name[0] //byte alias dari int8
+
+    var eString string = string(e)
+
+    fmt.Println(name)
+    fmt.Println(e)
+    fmt.Println(eString)
+
 }
